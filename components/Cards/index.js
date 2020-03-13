@@ -67,7 +67,7 @@ const authorName = document.createElement('span');
 card.appendChild(headline);
 card.appendChild(author);
 author.appendChild(imgContainer);
-authorImage.appendChild(imgContainer);
+imgContainer.appendChild(authorImage);
 author.appendChild(authorName);
     //classes
 card.classList.add('card');
@@ -76,7 +76,7 @@ author.classList.add('author');
 imgContainer.classList.add('img-container');
     //content
 headline.textContent = `${element.headline}`;
-authorImage.setAttribute = ('src', element.authorPhoto);
+authorImage.src = `${element.authorPhoto}`;
 authorName.textContent = `By ${element.authorName}`;
 
     return card
