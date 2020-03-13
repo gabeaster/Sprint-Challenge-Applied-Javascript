@@ -10,8 +10,7 @@
 // And add it to the DOM in the .header-container component
 
 
-//entry point created
-const headerParent = document.querySelector('.header-container');
+
 
 //FUNCTION CREATED
 function Header() {
@@ -35,11 +34,14 @@ function Header() {
     title.textContent = `Lambda Times`;
     tempSpan.textContent= `98°`;
 
+    //append header to div in html .header-container
+    const headerParent = document.querySelector('.header-container');
     headerParent.appendChild(header);
 
     return header
 }
 
+//invoke the function!
 Header();
 
 
