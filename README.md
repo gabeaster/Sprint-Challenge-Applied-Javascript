@@ -42,16 +42,19 @@ Edit this document to include your answers after each question. Make sure to lea
 
 * [DONE] Fork the project into your GitHub user account
 * [DONE] Clone the forked project into a directory on your machine
-* [ ] Create a pull request before you start working on the project requirements.  You will continuously push your updates throughout the project.
-* [ ] You are now ready to build this project with your preferred IDE
+* [DONE] Create a pull request before you start working on the project requirements.  You will continuously push your updates throughout the project.
+
+https://github.com/gabeaster/Sprint-Challenge-Applied-Javascript/pull/1
+
+* [DONE] You are now ready to build this project with your preferred IDE
 
 ## Minimum Viable Product
 
 Your finished project must include all of the following requirements:
 
-* [ ] Look through the HTML code and familiarize yourself with the different sections. Some of them already exist, but some need to be filled in. DO NOT add any code to the HTML file itself.
+* [DONE] Look through the HTML code and familiarize yourself with the different sections. Some of them already exist, but some need to be filled in. DO NOT add any code to the HTML file itself.
 
-* [ ] Following the instructions in the `Header/index.js` file, create the Header component. 
+* [DONE] Following the instructions in the `Header/index.js` file, create the Header component. 
 
 * [ ] Following the instructions in the `Tabs/index.js` file, create individual Tabs components.
 
