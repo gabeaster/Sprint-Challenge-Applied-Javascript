@@ -10,7 +10,7 @@
 const tabs = document.querySelector('.topics');
 axios.get(`https://lambda-times-backend.herokuapp.com/topics`)
 .then(response=>{
-    console.log(`this is the response`,response);
+    console.log(`this is the tabs response`,response);
     response.data.topics.forEach(objData=> {
         // const newTab = tabMaker(item);
         // console.log(`these are the topics`, response.data.topics);
@@ -18,7 +18,7 @@ axios.get(`https://lambda-times-backend.herokuapp.com/topics`)
         // Object.values(obj).forEach((value) => {
         //     console.log(value);
             // const newTab = tabMaker();
-            console.log(objData);
+            console.log(`this is the tabs objData`,objData);
         tabs.append(tabMaker(objData));
         })
     })
